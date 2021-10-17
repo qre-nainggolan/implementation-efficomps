@@ -1,0 +1,83 @@
+.CollaboratorTable {
+    margin-top: 10px !important;
+    font-size: 11px;
+    padding: 0;
+    margin: 0;
+    border-bottom: 1px solid #ff00dc;
+    border-top: 1px solid #ccc;
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    width: 100%;
+    max-width: 100%;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.CollaboratorTable .thead {
+    background-color: #e6e2ee !important;
+    height:auto;
+    float:left;
+}
+
+.CollaboratorTable .thead .tr {
+    float: left;
+    border-bottom: 1px solid #ccc;
+    border-right:1px solid #88d1fb;
+    background-color: #e6e2ee;
+    font-weight: bold;
+}
+
+.CollaboratorTable .thead .tr .td{
+    float:left;
+    padding: 1.5px 1px 1.5px 1.5px;
+    margin: 1.5px 1px 1.5px 1.5px;
+}
+
+
+.CollaboratorTable .tbody {
+    width: 100% !important;
+    max-width: 100% !important;
+    min-height:300px;
+    max-height:350px;
+    overflow-y:scroll;
+}
+
+
+.CollaboratorTable .tbody .tr {
+    float:left;
+    width: 100% !important;
+    max-width: 100% !important;
+    border-bottom: 1px solid #ccc;
+}
+
+.CollaboratorTable .tbody .tr .td {
+    float: left;
+    padding: 1.5px 1px 1.5px 1.5px;
+    margin: 1.5px 1px 1.5px 1.5px;
+}
+
+.CollaboratorTable .tbody .tr:hover {
+    background-color: #e7f5ff !important;
+}
+
+.CollaboratorTable .tbody .trHeaderContainer{
+    position:absolute;
+    margin-right:0;
+    margin-left:0;
+    padding:0;
+}
+
+.CollaboratorTable .tbody .trHeader {
+    float:left;
+    background-color:#ccc;
+    width: 100% !important;
+    max-width: 100% !important;
+    border-bottom: 1px solid #ccc;
+}
+
+.CollaboratorTable .tbody .trHeader .tdHeader {
+    float:left;
+    padding: 1.5px 1px 1.5px 1.5px;
+    margin: 1.5px 1px 1.5px 1.5px;
+}
