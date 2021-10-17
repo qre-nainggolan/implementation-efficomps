@@ -195,8 +195,8 @@ export default class Example extends Component {
 
     render() {
         return (
-            <div className='ModuleContainer'>                                
-                <Container>
+            <Container>            
+                <div className='ModuleContainer'>                                
                     <FormModalWrapper
                         className={''}
                         headerTitle={'Form Transaksi Masuk'}
@@ -357,14 +357,13 @@ export default class Example extends Component {
                             value={this.state.value}
                         />
                     </Row>
-                    <div className="HeaderToggleBoxMenu"></div>
                     <TableWrapper
                         fields={this.BongkarMuatDataModel}
                         data={this.state.listBongkarMuat}
                         name={'TableBongkarMuat'}
                     />
-                </Container>                    
-            </div>
+                </div>                    
+            </Container>                    
         );
     }
 }
